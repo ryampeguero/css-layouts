@@ -1,0 +1,41 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* debug */
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.wrapper {
+    display: flex;
+    
+    /* debug */
+    /* background-color: lightblue; */
+    /* height: 600px; */
+}
+
+.small-container {
+    width: 30%;
+    
+    /* debug */
+    background-color: mediumslateblue;
+    height: 400px;
+}
+
+.large-container {
+    width: 70%;
+    
+    /* debug */
+    background-color: green;
+    height: 400px;
+}
+
+footer {
+    min-height: 100px;
+    background-color: lightgreen;
+}
